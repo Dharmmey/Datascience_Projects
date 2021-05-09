@@ -1,6 +1,6 @@
 from datetime import datetime as dt
 
-read_transac = open("C:/Users/EBILAKUN/Documents/DATASCIENCE/GIT/personal/Univelcity_Datascience_Projects/transachub_project/transachub.txt", mode = "r", encoding = "utf-8")
+read_transac = open("C:/Users/EBILAKUN/Documents/DATASCIENCE/GIT/personal/Datascience_Projects/transachub_project/transachub.txt", mode = "r", encoding = "utf-8")
 quick_peek = read_transac.readlines()
 # print(quick_peek)
 
@@ -179,6 +179,6 @@ sheet_two.write(1, 6, "₦{}".format(total_sales - (total_sales * 0.2)))
 
 
 
-book_name = "C:/Users/EBILAKUN/Documents/DATASCIENCE/GIT/personal/Univelcity_Datascience_Projects/transachub_project/Transachub.xls"
+book_name = "C:/Users/EBILAKUN/Documents/DATASCIENCE/GIT/personal/Datascience_Projects/transachub_project/Transachub.xls"
 book.save(book_name)
 book.save(TemporaryFile())
