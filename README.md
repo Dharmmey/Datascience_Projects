@@ -1,4 +1,4 @@
-# Univelcity_Datascience_Projects
+# Datascience_Projects
 
 Hello!
 
